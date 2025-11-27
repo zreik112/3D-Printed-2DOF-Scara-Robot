@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Titan+One&display=swap');
+*{
+    font-family: "Raleway";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #24252A;
+}
+
+/*#region NAVBAR*/
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-h1{
+    cursor: pointer;
+    color: #edf0f1;
+    transition: text-shadow 0.3s ease;
+    letter-spacing: 5px;
+    border-right: 5px solid;
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: cursor 0.4s step-end infinite alternate;
+}
+
+@keyframes cursor{
+    60% {border-color: transparent}
+}
+
+.nav-h1:hover{
+text-shadow: 0 0 20px rgba(0, 136, 169, 0.6);
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9;
+}
+
+.button-nav{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.button-nav:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+    box-shadow: 0 0 20px rgba(178, 255, 255, 0.8);
+}
+
+/*#endregion*/
+
+.wrapper{
+    text-align: center; 
+    font-family: monospace; 
+    color: white; 
+    background: #24252A; 
+    padding: 20px;
+    
+}
+
+h2{
+    position: relative;
+    width: max-content;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+h2::after{
+    content: '';
+    background: linear-gradient(to right, white, #06bfee);
+    border-radius: 100px;
+    height: 4px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 100ms;
+}
+h2:hover::after{
+    width:100%;
+}
+h2:hover{
+    cursor: pointer;
+}
+
+h3{
+    position: relative;
+    width: max-content;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+h3::after{
+    content: '';
+    background: linear-gradient(to right, white, #06bfee);
+    border-radius: 100px;
+    height: 4px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 100ms;
+}
+h3:hover::after{
+    width:100%;
+}
+h3:hover{
+    cursor: pointer;
+}
+
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(1, 112, 140);
+}
+
+.d-pad-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.btn-up { grid-column: 2; grid-row: 1; }
+.btn-left { grid-column: 1; grid-row: 2; }
+.btn-home { grid-column: 2; grid-row: 2; }
+.btn-right { grid-column: 3; grid-row: 2; }
+.btn-down { grid-column: 2; grid-row: 3; }
+
+.grid-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: #edf0f1 !important;
+    text-align: center;
+    
+}
+
+.btnMove{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.btnMove:hover{
+    background-color: rgb(1, 112, 140);
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+span{
+    color: white;
+}
+
+footer{
+    color: #0088a9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 90px;
+}
+
+/*#endregion*/

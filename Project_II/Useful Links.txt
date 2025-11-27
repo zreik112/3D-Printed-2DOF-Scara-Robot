@@ -1,0 +1,8 @@
+https://youtu.be/PwWHL3RyQgk?si=rp5y0vMWhSCp7m5g // For the navigation bar
+https://youtu.be/Je0B3nHhKmM?si=w-USz9RwZ3lGb9tH // To understand the coordinate mapping inside a div
+https://youtu.be/dIUOWdwwZBw?si=-T7KLiW5hcXXY6K2 // to learn ::after and ::before and to add the underline effect
+https://youtu.be/bnC-kuL_CYw?si=6gHplyUgzkbBRT7A // for the glass effect.
+https://youtu.be/D_jyYBuDspM?si=mn-X3Qn3k46e20M8 // For the circle animation at the home page
+https://www.w3schools.com/html/ & https://www.geeksforgeeks.org/ // to understandsome concepts and copy them
+https://fonts.google.com/ //To get the font and some pictures
+https://www.figma.com/colors/ //To get the colors 
